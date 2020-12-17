@@ -108,3 +108,8 @@
     margin: 10px;
 
 }
+.image-fluid:hover{
+    transform: scale(1.4,1.4);
+    transition-duration: 0.2s;
+
+}
