@@ -1,0 +1,110 @@
+.banner-content {
+
+    background: url(header.jpg)no-repeat 0px 0px;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 30em;
+    max-width: 100%;
+
+}
+
+.card-img {
+    height: 10em;
+    width: auto;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    height: 70px;
+    font-family: 'Lucida Sans';
+
+}
+
+.navbar-brand {
+    position: relative;
+    left: 10px;
+    display: inline;
+    color: rgb(68, 67, 67);
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(12, 41, 21, 0.76);
+    font-size: 40px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+    background-color: rgb(16, 16, 27);
+}
+
+.footer-title {
+    margin-left: 50px;
+    margin-top: 7px;
+    color: darkgrey;
+}
+
+.footer-text {
+
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.d {
+    list-style-type: none;
+    color: pink;
+    margin-left: 50px;
+}
+
+.d a {
+    text-decoration: none;
+    color:pink;
+
+}
+
+.card {
+    position: relative;
+    top: 200px;
+    width: 350px;
+    height: 250px;
+    left: 200px;
+    border-radius: 15px;
+}
+
+.card-img {
+    border-radius: 15px;
+    width: 330px;
+    height: 230px;
+}
+
+.C {
+    background-color: rgb(16, 16, 27);
+}
+.card1{
+    background: url(header.jpg)no-repeat 0px 0px;
+    background-size: 1400px 400px;
+    min-height:200px;
+    width:100%;
+    opacity: 0.7;
+    
+}
+.col-md-4 img{
+    height: 30px;
+    width: auto;
+     
+}
+.col-md-4 img:hover{
+    scale: 10px;
+     
+}
+.border{
+    background-color: burlywood;
+}
+.map{
+    position: relative;
+    top: 50px;
+    margin: 10px;
+
+}
