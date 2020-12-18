@@ -31,7 +31,6 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    font-family: ;
 }
 
 .navbar-collapse {
@@ -49,14 +48,13 @@
 
 .d {
     list-style-type: none;
-    color: pink;
+    color: orange;
     margin-left: 50px;
 }
 
 .d a {
     text-decoration: none;
-    color:pink;
-
+    color:orange;
 }
 
 .card {
@@ -108,15 +106,15 @@
 .image-fluid:hover{
     transform: scale(1.4,1.4);
     transition-duration: 0.2s;
-
-  .footer {
+}
+  .footer{
   background-color: rgb(16, 16, 27);
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-
-}.flexbox-item {
+}
+.flexbox-item {
   margin: 10px;
   width: 325px;
   }
