@@ -18,22 +18,42 @@
     width: auto;
     height: 70px;
     font-family: 'Lucida Sans';
+    
 
 }
-
-.navbar-brand {
-    position: relative;
-    left: 10px;
-    display: inline;
-    color: black;
-    text-decoration: none;
-    text-shadow: 0 1px 2px rgba(12, 41, 21, 0.76);
-    font-size: 40px;
+.B{
+    background-color:khaki;
 }
+
+.navbar{
+    background-color:rgb(7, 6, 14);
+}
+
 
 .navbar-collapse {
     display: flex;
     justify-content: flex-end;
+}
+.navbar-brand {
+    position: relative;
+    left: 10px;
+    display: inline;
+    color: khaki;
+    text-decoration: none;
+    text-shadow: 0 3px 3px rgba(140, 133, 238, 0.76);
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: ;
+}
+.nav-link {
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+}
+.nav-link:hover{
+    color: rgb(231, 214, 61);
 }
 
 .footer {
@@ -101,5 +121,25 @@ width: 325px;
    color: black;
    
 }
+.carousel-item{
+    height: 500px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover ;
+    background-size: cover;
+}
+
+    
+.S{
+    color: black;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.L{
+    color: black;
+}
+
 
     
