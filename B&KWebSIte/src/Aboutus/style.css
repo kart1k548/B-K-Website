@@ -1,3 +1,35 @@
+.navbar{
+    background-color:rgb(7, 6, 14);
+}
+
+.navbar-brand {
+    position: relative;
+    left: 10px;
+    display: inline;
+    color: khaki;
+    text-decoration: none;
+    text-shadow: 0 3px 3px rgba(140, 133, 238, 0.76);
+    font-size: 35px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: ;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+}
+.nav-link:hover{
+    color: rgb(231, 214, 61);
+}
+
 h2,h1{
   font-style: italic;
   font-family:  "Courier New", monospace;
@@ -30,20 +62,7 @@ h2,h1{
 
 }
 
-.navbar-brand {
-  position: relative;
-  left: 10px;
-  display: inline;
-  color: black;
-  text-decoration: none;
-  text-shadow: 0 1px 2px rgba(12, 41, 21, 0.76);
-  font-size: 40px;
-}
 
-.navbar-collapse {
-  display: flex;
-  justify-content: flex-end;
-}
 
 .footer {
   background-color: rgb(16, 16, 27);
@@ -52,9 +71,7 @@ h2,h1{
   justify-content: space-around;
   flex-direction: row;
 }
-#navBar{
-  background-color:white ;
-}
+
 .flexbox-item {
   margin: 10px;
   width: 325px;
