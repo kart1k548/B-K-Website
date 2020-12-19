@@ -1,34 +1,3 @@
-.navbar{
-    background-color:rgb(7, 6, 14);
-}
-
-.navbar-brand {
-    position: relative;
-    left: 10px;
-    display: inline;
-    color: khaki;
-    text-decoration: none;
-    text-shadow: 0 3px 3px rgba(140, 133, 238, 0.76);
-    font-size: 35px;
-    font-style: italic;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.nav-link {
-    font-size: 20px;
-    color: rgb(253, 253, 253);
-}
-.nav-link:hover{
-    color: rgb(231, 214, 61);
-}
-
 h2,h1{
   font-style: italic;
   font-family:  "Courier New", monospace;
@@ -36,8 +5,12 @@ h2,h1{
 .card{
   width: 50%;
   background-color: rgb(52, 27, 189);
+  margin-right: 10px
 }
-
+.card-columns{
+  margin-right: 50px;
+  position: relative;
+}
 .items {
     width: 100%;
     margin: 0px auto;
@@ -61,7 +34,33 @@ h2,h1{
 
 }
 
-
+.navbar-brand {
+  position: relative;
+  left: 10px;
+  display: inline;
+  color: khaki;
+    text-decoration: none;
+    text-shadow: 0 3px 3px rgba(140, 133, 238, 0.76);
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar{
+  background-color:rgb(7, 6, 14);
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  font-size: 20px;
+  color: rgb(253, 253, 253);
+}
+.nav-link:hover{
+  color: rgb(231, 214, 61);
+}
 
 .footer {
   background-color: rgb(16, 16, 27);
@@ -70,36 +69,39 @@ h2,h1{
   justify-content: space-around;
   flex-direction: row;
 }
-
 .flexbox-item {
-  margin: 10px;
-  width: 325px;
-  }
-  .flexbox-item-1{
-      text-align: left;
-      margin-left: 25px;
-      color: cyan;
-      min-height: 100px;
-  }
-  .flexbox-item-2{
-      text-align: left;
-      min-height:100px;
-      margin-left: 20px;
-      color: cyan;
-  }
-  .flexbox-item-3{
-      text-align: left;
-      margin-left: 25px;
-      color: cyan;
-      min-height: 100px;
-  }
-  .d {
-    list-style-type: none;
-    color: orange;
-    margin-left: 25px;
+margin: 10px;
+width: 325px;
+}
+.flexbox-item-1{
+  text-align: left;
+  margin-left: 25px;
+  color: cyan;
+  min-height: 100px;
+}
+.flexbox-item-2{
+  text-align: left;
+  min-height:100px;
+  margin-left: 20px;
+  color: cyan;
+}
+.flexbox-item-3{
+  text-align: left;
+  margin-left: 25px;
+  color: cyan;
+  min-height: 100px;
+}
+
+.d {
+  list-style-type: none;
+  color: orange;
+  margin-left: 25px;
 }
 
 .d a {
-    text-decoration: none;
-    color:orange;
+  text-decoration: none;
+  color:orange;
+}
+.C {
+  background-color: rgb(16, 16, 27);
 }
