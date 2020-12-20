@@ -136,7 +136,7 @@
       color: cyan;
       min-height: 100px;
   }
-.text-center:hover{
+.F:hover{
     transform: scale(1.4,1.4);
     transition-duration: 0.2s;
     color: brown;
