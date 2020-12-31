@@ -25,13 +25,18 @@
     display: inline;
     color: khaki;
     text-decoration: none;
-    text-shadow: 0 3px 3px rgba(140, 133, 238, 0.76);
+    text-shadow: 0 3px 3px rgba(157, 154, 199, 0.76);
     font-size: 35px;
     font-style: italic;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-}
+  }
+  .navbar-brand:hover{
+    transform: scale(1.,1.);
+    transition-duration: 0.1s;
+    color: rgb(167, 199, 204);
+  }
 
 .navbar-collapse {
     display: flex;
