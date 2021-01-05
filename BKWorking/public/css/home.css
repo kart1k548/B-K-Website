@@ -102,11 +102,15 @@ width: 325px;
 }
 .card {
     position: relative;
+    padding:0%;
+    
     top: 10px;
-    width: 500px;
-    height: 410px;
+    width: 400px;
+    height: 400px;
     left: 125px;
     border-radius: 15px;
+    box-shadow: 1px 1px 2px 2px  #a89999; 
+    
 }
 
 .C {
@@ -143,6 +147,9 @@ width: 325px;
 }
 .L{
     color: black;
+}
+.divht{
+    height: 600px !important;
 }
 
 

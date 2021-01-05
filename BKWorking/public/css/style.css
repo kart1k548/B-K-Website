@@ -5,7 +5,8 @@ h2,h1{
 .card{
   width: 50%;
   background-color: rgb(52, 27, 189);
-  margin-right: 10px
+  margin-right: 10px;
+  padding-top: 20px;
 }
 .card-columns{
   margin-right: 50px;
@@ -109,4 +110,13 @@ width: 325px;
 }
 .C {
   background-color: rgb(16, 16, 27);
+}
+.mimg{
+  height: 200px;
+  width: 200px;
+}
+.vimg{
+  height: 250px;
+  width: 250px;
+  margin-left: 10px;
 }
