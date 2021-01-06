@@ -1,0 +1,68 @@
+<%- include('../includes/head.ejs') %>
+<link rel="stylesheet" href="css/signup.css" type="text/css">
+</head>
+<body>
+<div class="A">
+<%- include('../includes/navbar.ejs') %>
+</div>
+<div class="signup-form">
+    <form action="#" method="post">
+		<h2>Create an Account</h2>
+		
+        <div class="form-group">
+        	<input type="text" class="form-control input-lg" name="Full Name" placeholder="Full Name" required="required">
+        </div>
+		<div class="form-group">
+        	<input type="email" class="form-control input-lg" name="Email" placeholder="Email Address" required="required">
+        </div>
+        <div class="form-group">
+        	<input type="number" class="form-control input-lg"  name="Phone No." placeholder="Phone No." required="required">
+        </div>
+        <div class="form-group">
+            <input type="variable" class="form-control input-lg" name="Username" placeholder="Username" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>  
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-success signup-btn">Sign Up</button>
+        </div>
+    </form>
+    <div class="text-center">Already have an account? <a href="./login.html">Login here</a></div>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-angle-up  " aria-hidden="true"></span></button>
+
+<br>
+<br>
+<br>
+
+<%- include('../includes/footer.ejs') %>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
+</body>
+</html>
