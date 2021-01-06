@@ -36,7 +36,7 @@
 </head>
 <body class="bg-dark">
     <!-- navbar -->
-    <div class = "A">
+  <div class = "A">
     <nav class="navbar navbar-expand-lg  fixed-top">
         <img class="logo" src="Shared/img/logo.png" alt="logo" /><a class="navbar-brand" href="#"><font size="+3.5">B & K TRADEMART</font></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -67,7 +67,7 @@
             </ul>
         </div>
     </nav>
-<br><br><br><br><br>
+  <br><br><br><br><br>
     <!-- //main content -->
     <h1 >Our Products</h1>
 <h4 style="color:bisque">Made in India with love for Earth</h4>
@@ -180,5 +180,32 @@
                 </p>
             </div>
             </footer>  
-        </body>
-        </html>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-angle-up  " aria-hidden="true"></span></button>
+
+
+
+
+          </body>
+          </html>
+          <script>
+              //Get the button
+              var mybutton = document.getElementById("myBtn");
+              
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function() {scrollFunction()};
+              
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              
+              // When the user clicks on the button, scroll to the top of the document
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }
+              </script>
+              
