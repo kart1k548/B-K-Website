@@ -3,98 +3,100 @@
 <link rel="stylesheet" type="text/css" href="css/home.css">
 <link rel="stylesheet" type="text/css" href="dist/jquery.convform.css">
 </head>
-<body class="B">
-    <div class="A">
-    <%- include('../includes/navbar.ejs') %>
+
+<body>
+    
+        <%- include('../includes/navbar.ejs') %>
+    
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="Shared/img/Slider1.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block  w-100" src="Shared/img/slider3.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block divht w-100" src="Shared/img/slider2.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <br><br><br>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="Shared/img/Slider1.jpg" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
 
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block  w-100" src="Shared/img/slider3.jpg" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
+    <div class="banner-content " id="home">
 
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block divht w-100" src="Shared/img/slider2.jpg" alt="Third slide">
-                    <div class="carousel-caption d-none d-md-block">
+        <div class="row container mx-auto ">
+            <div class="col-md-6 text-white my-5">
+                <h3>Ride The Future</h3>
+                <p>
+                    Sale, Maintenance & Repair of motor vehicles and motor cycles,retail sale of automotive fuel.
+                    <br>
+                    <span class="readMore" style="display: none">
+                        B&k Trademart Llp's last financial year end date for which Statement of Accounts and
+                        Solvency
+                        were filed is N/A and as per records from Ministry of Corporate Affairs (MCA), date of last
+                        financial year end date for which Annual Return were filed is N/A.
 
-                    </div>
-                </div>
+                        B&k Trademart Llp's LLP Identification Number is (LLPIN)AAS-9769. Its Email address is
+                        bktrademartllp@gmail.com and its registered address is BASANTA BIHAR, PO/PS BURLA SAMBALPUR
+                        Sambalpur OR 768017 IN , - , .
+
+                        Current status of B&k Trademart Llp is - Active.
+                    </span>
+                </p>
+
+                <button class="btn btn-info readBtn">Read More..</button>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
 
-        <div class="banner-content " id="home">
-
-            <div class="row container mx-auto ">
-                <div class="col-md-6 text-white my-5">
-                    <h3>Ride The Future</h3>
-                    <p>
-                        Sale, Maintenance & Repair of motor vehicles and motor cycles,retail sale of automotive fuel.
-                        <br>
-                        <span class="readMore" style="display: none">
-                            B&k Trademart Llp's last financial year end date for which Statement of Accounts and
-                            Solvency
-                            were filed is N/A and as per records from Ministry of Corporate Affairs (MCA), date of last
-                            financial year end date for which Annual Return were filed is N/A.
-
-                            B&k Trademart Llp's LLP Identification Number is (LLPIN)AAS-9769. Its Email address is
-                            bktrademartllp@gmail.com and its registered address is BASANTA BIHAR, PO/PS BURLA SAMBALPUR
-                            Sambalpur OR 768017 IN , - , .
-
-                            Current status of B&k Trademart Llp is - Active.
-                        </span>
-                    </p>
-
-                    <button class="btn btn-info readBtn">Read More..</button>
+            <div class="col-md-6 my-4">
+                <div class="card ">
+                    <a class="twitter-timeline" data-width="650" data-height="400" data-theme="dark"
+                        href="https://twitter.com/bktrademartllp?ref_src=twsrc%5Etfw">Tweets by bktrademartllp</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-
-                <div class="col-md-6 my-4">
-                    <div class="card ">
-                        <a class="twitter-timeline" data-width="550" data-height="410" data-theme="dark"
-                            href="https://twitter.com/bktrademartllp?ref_src=twsrc%5Etfw">Tweets by bktrademartllp</a>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
-            </div>
-        </div><br>
-        <div class="card1 ">
-            <div class="test-info text-center">
-                <h3 class="my-md-2 my-3 text-danger h1"><b>B&K Trademart</b></h3>
-
-                <em>
-                    <p class="t"> "EVs are not going to take the market by storm,
-                        But its going to be the future of transportation" </p>
-                </em>
             </div>
         </div>
+    </div><br>
+    <div class="card1 ">
+        <div class="test-info text-center">
+            <h3 class="my-md-2 my-3 text-danger h1"><b>B&K Trademart</b></h3>
+
+            <em>
+                <p class="t"> "EVs are not going to take the market by storm,
+                    But its going to be the future of transportation" </p>
+            </em>
+        </div>
+    </div>
     <%- include('../includes/footer.ejs') %>
     <div id="chatbot-btn">
-
+        <img src="Shared/img/chatbot.png" alt="">
     </div>
-    <section id="demo">
-        <div class="vertical-align">
-            <div class="container">
+
+    <section id="demo" style="padding-bottom:80px ; padding-right: 120px;">
+        
+            <div class="container mt-5" id="container">
                 <div class="card no-border">
                     <div id="chat" class="conv-form-wrapper">
                         <form action="" method="GET" class="hidden">
@@ -105,47 +107,47 @@
 
                             <select name="programmer"
                                 data-conv-question="Hello, {name}:0! It's a pleasure to meet you.<br><br>How may i help you ?">
-                                <option value="yes">rent a bike</option>
-                                <option value="no">FAQ</option>
-                                <option value="#">Signup/Login to avail our services.</option>
+                                <option value="rent">rent a bike</option>
+                                <option value="FAQ">FAQ</option>
+                                <option value="log"><a href="../viewer/signup.ejs">Login to avail our services</a></option>
                             </select>
                             <div data-conv-fork="programmer">
-                                <div data-conv-case="yes">
+                                <div data-conv-case="rent">
 
                                     <select data-conv-question="CLick below to go">
                                         <option value="google" data-callback="google">Rent a Bike</option>
                                     </select>
                                 </div>
 
-                                <div data-conv-case="no">
+                                
+
+                                <div data-conv-case="FAQ">
                                     <select name="thought" data-conv-question="FAQ's" data-callback="storeState">
-                                        <option value="que1">how do i get my vehicle?</option></br>
-                                        <option value="que2">how do i make a booking with B&K trademart?
+                                        <option value="que1">how will i get my vehicle?</option></br>
+                                        <option value="que2">How do i proceed my booking with B&K trademart?
                                         </option>
-                                        <option value="que3">how my order gets confirmed?</option>
-                                        <option value="que4">what information do i need to have for booking
-                                            a
-                                            vehicle?</option>
+                                        <option value="que3">How can my orders get confirmed?</option>
+                                        <option value="que4">What information do i need to fill for booking a vehicle?
+                                        </option>
                                         <option value="que5">Do you offer single day/hourly rate?</option>
                                         <option value="que6">Do i need driving license for ride?</option>
-                                        <option value="que7">is it possible to extend my ride beyond the
-                                            booking
+                                        <option value="que7">Is it possible to extend my ride beyond the booking
                                             date-time?</option>
                                         <option value="que8">is there any late penalty ?</option>
                                         <option value="que9">are there any booking cancellation charges?
                                         </option>
-                                        <option value="que10">how do i cancle my booking?</option>
+                                        <option value="que10">how do i cancel my booking?</option>
                                     </select>
 
                                     <div data-conv-fork="thought">
                                         <div data-conv-case="que1">
-                                            <input type="text" data-conv-question="you can get it from the pickup point from the available  points in your selected city.
-                                                    " data-no-answer="true">
+                                            <input type="text"
+                                                data-conv-question="you can select the pickup point from the available  points in your selected city.  "
+                                                data-no-answer="true">
                                         </div>
                                         <div data-conv-case="que2">
-                                            <input type="text"
-                                                data-conv-question="Go to booking(link) option for the booking and listing will help you to select appropriate vehicle"
-                                                data-no-answer="true">
+                                            <input type="text" data-conv-question="Go to booking(link) option for the booking and listing will help you to select appropriate vehicle"
+                                                data-no-answer= "true">
                                         </div>
                                         <div data-conv-case="que3">
                                             <input type="text"
@@ -154,7 +156,7 @@
                                         </div>
                                         <div data-conv-case="que4">
                                             <input type="text"
-                                                data-conv-question="first you need to signup by filling signup form and then you can login , for booking(booking info) "
+                                                data-conv-question="first you need to signup by filling signup form and then you can login , for booking(booking info) . "
                                                 data-no-answer="true">
                                         </div>
                                         <div data-conv-case="que5">
@@ -186,8 +188,7 @@
                                                 data-no-answer="true">
                                         </div>
                                     </div>
-                                    <select name="callbackTest"
-                                        data-conv-question="Do you satisfied with our service?">
+                                    <select name="callbackTest" data-conv-question="Do you satisfied with our service?">
                                         <option value="no" data-callback="restore">Yes</option>
                                         <option value="yes" data-callback="rollback">No</option>
                                     </select>
@@ -201,11 +202,11 @@
                 </div>
 
             </div>
-        </div>
+        
     </section>
 
     <div class="col-lg-12 col-md-12 mt-lg-0 mt-4 col-sm-12 footer-grid_section_1its">
-               
+
         <div class="move-top-w3layouts text-center mt-3">
             <a href="#home" class="move-top"> <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span></a>
         </div>
@@ -223,6 +224,9 @@
 <script type="text/javascript" src="dist/autosize.min.js"></script>
 
 <script>
+    var element = document.getElementById("container");
+    element.scrollTop = element.scrollHeight;
+
     $(".readBtn").click(function () {
         $(".readMore").toggle();
     });
@@ -232,18 +236,17 @@
     });
 
     function rentBike() {
-        window.location.href = 'http://www.google.com';
+        window.location.href = 'https://www.zoomcar.com/bangalore/';
     }
 
     function google(stateWrapper, ready) {
-        window.open("https://google.com");
+        window.open("https://www.zoomcar.com/bangalore/");
         ready();
     }
 
-    function bing(stateWrapper, ready) {
-        window.open("https://bing.com");
-        ready();
-    }
+    // login
+    
+    
     var rollbackTo = false;
     var originalState = false;
 
@@ -284,4 +287,5 @@
         console.log(convForm);
     });
 </script>
+
 </html>
