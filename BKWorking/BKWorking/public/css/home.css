@@ -100,6 +100,11 @@ width: 325px;
     text-decoration: none;
     color:orange;
 }
+.d:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    
+   }
 .card {
     position: relative;
     padding:0%;
@@ -115,6 +120,7 @@ width: 325px;
 
 .C {
     background-color: rgb(16, 16, 27);
+    font-size: small;
 }
 .card1{
     background: linear-gradient(to top ,black,rgb(238, 250, 250));
