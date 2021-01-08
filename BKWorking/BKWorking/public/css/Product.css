@@ -81,8 +81,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 30px;
     text-align: center;
+    color: goldenrod;
     background-color: black;
-    color: rgb(245, 245, 181);
+    
     margin:  auto; /* Added */
       float: none; /* Added */
       margin-bottom: 10px; /* Added */
@@ -96,8 +97,7 @@ body {
   }
 .card:hover{
   transform: scale(1.1);
-  Background-color : rgb(253, 253, 162) ;
-  Color : black;
+  
 }
 
 .card-body{
@@ -149,6 +149,7 @@ width: 325px;
   list-style-type: none;
   color: orange;
   margin-left: 25px;
+  font-size: medium;
 }
 
 .d a {
@@ -157,6 +158,13 @@ width: 325px;
 }
 .C {
   background-color: rgb(16, 16, 27);
+  font-size: small;
+}
+.d:hover{
+  transform: scale(1.1);
+  text-decoration: underline;
+ 
+  
 }
 #myBtn {
   display: none;
@@ -177,3 +185,4 @@ width: 325px;
 #myBtn:hover {
   background-color: #555;
 }
+    
