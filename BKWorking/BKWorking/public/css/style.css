@@ -1,6 +1,7 @@
 h2,h1{
-  font-style: italic;
-  font-family:  "Courier New", monospace;
+  font-style: "Serif"
+  
+  
 }
 .card{
   width: 50%;
@@ -42,15 +43,15 @@ h2,h1{
   color: khaki;
   text-decoration: none;
   text-shadow: 0 3px 3px rgba(157, 154, 199, 0.76);
-  font-size: 35px;
+  font-size: 25px;
   font-style: italic;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
 }
 .navbar-brand:hover{
-  transform: scale(1.,1.);
-  transition-duration: 0.1s;
+  /*transform: scale(1.,1.);
+  transition-duration: 0.1s;*/
   color: rgb(167, 199, 204);
 }
 .navbar{
@@ -74,6 +75,7 @@ h2,h1{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  font-size: 1.5em;
 }
 .flexbox-item {
 margin: 10px;
@@ -102,6 +104,7 @@ width: 325px;
   list-style-type: none;
   color: orange;
   margin-left: 25px;
+  font-size: medium;
 }
 
 .d a {
@@ -110,8 +113,19 @@ width: 325px;
 }
 .C {
   background-color: rgb(16, 16, 27);
+  font-size: small;
 }
+.d:hover{
+  transform: scale(1.1);
+  text-decoration: underline;
+  }
+#mission{
+  margin-top:4%;
+}
+
+
 .mimg{
+ 
   height: 200px;
   width: 200px;
 }

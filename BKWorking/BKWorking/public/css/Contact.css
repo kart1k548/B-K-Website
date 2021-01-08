@@ -79,6 +79,7 @@
 
 .C {
     background-color: rgb(16, 16, 27);
+    font-size: small;
 }
 .card1{
     background: url(header.jpg)no-repeat 0px 0px;
@@ -141,6 +142,21 @@
       color: cyan;
       min-height: 100px;
   }
+  .d {
+    list-style-type: none;
+    color: orange;
+    margin-left: 25px;
+    font-size: medium;
+}
+
+.d a {
+    text-decoration: none;
+    color:orange;
+}
+  .d:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
 .F:hover{
     transform: scale(1.4,1.4);
     transition-duration: 0.2s;
