@@ -1,11 +1,10 @@
-# B-K-Website
-Electronics Inventory Web Application.
+# B-K-Website.
 
 Steps to run this web app:
 
 Step 1: Open command prompt and navigate to web app's present folder.
 
-Step 2: Type command "node server.js" in order to start the server.
+Step 2: Type command "npm start" in order to start the server.
 
 Step 3: Open your web browser and navigate to this link: "http://127.0.0.1:3000"
 
